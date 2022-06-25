@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Camel Routes Tests ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open ",
+    "cypress:runDashboard": "cypress run --spec cypress/integration/1-getting-started/todo.spec.js --record --key 2c3187f5-4bc0-4c4b-9c6f-7d085fc2aa23",
+    "cypress:runDefault": "cypress run --spec cypress/integration/1-getting-started/todo.spec.js",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/integration/1-getting-started/todo.spec.js"
+  },
+  "author": "Wafa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  },
+  "dependencies": {
+    "browserlist": "^1.0.1",
+    "caniuse-lite": "^1.0.30001352"
+  }
+}
