@@ -22,7 +22,10 @@ pipeline {
         
         stage('Building'){
             //The steps section defines a series of one or more steps to be executed in a given stage directive.
+            steps{
                 echo "Building the application"
+            }
+              
             
         }
         
